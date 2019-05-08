@@ -1,0 +1,32 @@
+Machine Learning problems fall into below categories:
+
+
+
+# Supervised learning 
+
+In this the data comes with additional attributes that we want to predict.This problem can be either:
+
+– classification: Samples belong to two or more classes and we want to learn from already labeled data how
+to predict the class of unlabeled data. An example of a classification problem would be handwritten digit
+recognition, in which the aim is to assign each input vector to one of a finite number of discrete categories.
+Another way to think of classification is as a discrete form of supervised
+learning where one has a limited number of categories and for each of the n samples provided, one is to
+try to label them with the correct category or class.
+
+
+1)Logistic Regression
+2)
+
+– regression: If the desired output consists of one or more continuous variables, then the task is called
+regression. An example of a regression problem would be the prediction of the length of a salmon as a
+function of its age and weight.
+
+
+
+# Unsupervised learning
+
+In this the training data consists of a set of input vectors x without any corresponding
+target values. The goal in such problems may be to discover groups of similar examples within the data, where
+it is called clustering, or to determine the distribution of data within the input space, known as density estimation,
+or to project the data from a high-dimensional space down to two or three dimensions for the purpose of
+visualization 
