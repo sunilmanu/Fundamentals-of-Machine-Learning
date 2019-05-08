@@ -1,0 +1,27 @@
+# Logistic Regression
+
+Definition: 
+
+i)Logistic regression is a machine learning algorithm for classification. In this algorithm, the probabilities describing the possible outcomes of a single trial are modelled using a logistic function.
+
+ii)The logistic function, also called the sigmoid function was developed by statisticians to describe properties of population growth in ecology, rising quickly and maxing out at the carrying capacity of the environment. It’s an S-shaped curve that can take any real-valued number and map it into a value between 0 and 1, but never exactly at those limits.
+
+A logistic function or logistic curve is a common "S" shape (sigmoid curve), with equation:
+
+{\displaystyle f(x)={\frac {L}{1+e^{-k(x-x_{0})}}}} {\displaystyle f(x)={\frac {L}{1+e^{-k(x-x_{0})}}}}
+
+
+
+Advantages: Logistic regression is designed for this purpose (classification), and is most useful for understanding the influence of several independent variables on a single outcome variable.
+
+Disadvantages: Works only when the predicted variable is binary, assumes all predictors are independent of each other, and assumes data is free of missing values.
+
+Example:
+To predict whether an email is spam (1) or (0)
+Whether the tumor is malignant (1) or not (0)
+
+Syntax:
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+model.fit(X_train,Y_train)
+predictions = mode.predict(X_test)
