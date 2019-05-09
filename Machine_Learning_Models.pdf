@@ -2,7 +2,7 @@ Machine Learning problems fall into below categories:
 
 
 
-# Supervised learning 
+1) Supervised learning 
 
 In this the data comes with additional attributes that we want to predict.This problem can be either:
 
@@ -14,8 +14,8 @@ learning where one has a limited number of categories and for each of the n samp
 try to label them with the correct category or class.
 
 
-1)Logistic Regression
-2)
+i)Logistic Regression
+ii)
 
 – regression: If the desired output consists of one or more continuous variables, then the task is called
 regression. An example of a regression problem would be the prediction of the length of a salmon as a
@@ -23,7 +23,7 @@ function of its age and weight.
 
 
 
-# Unsupervised learning
+2) Unsupervised learning
 
 In this the training data consists of a set of input vectors x without any corresponding
 target values. The goal in such problems may be to discover groups of similar examples within the data, where
